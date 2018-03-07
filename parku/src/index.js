@@ -1,8 +1,11 @@
+
+//index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import CommentBox from './CommentBox';
+// import Nav from "./components/Nav";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
